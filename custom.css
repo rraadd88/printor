@@ -11,9 +11,9 @@
 body {
   background: #fff;
   background-color: #fff;
-  overflow: scroll;
+/*  overflow: scroll;*/
   overflow-x:scroll !important;
-  overflow-y:auto !important;
+  overflow-y:scroll !important;
 }
 
 
@@ -31,13 +31,16 @@ body {
 }
 
 .reveal .slides {
-  width: 90% !important;
+  overflow-y: auto;
+  overflow-x: hidden;  
+  width: 100% !important;
   height: 100% !important;
 }
 
 .reveal .slides>section {
   /*line-height: 1.5;*/
-  width: 90% !important;
+  padding-left: 10%;
+  width: 70% !important;
   height: 100% !important;
 }
 
@@ -98,9 +101,9 @@ body {
  * OTHER
  *********************************************/
 
-.reveal span.a { display: inline-block; width: 150px; }
+/*.reveal span.a { display: inline-block; width: 150px; }
 .reveal span.b { display: inline-block; width: 20px; }
-
+*/
 html.img-transparent body {
   background-color: #4D4D4D;
 }
