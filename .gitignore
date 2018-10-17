@@ -21,4 +21,4 @@ __pycache__/
 .ipynb_checkpoints
 
 # pyenv
-.python-version
+.python-versiontest*
