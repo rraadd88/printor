@@ -23,4 +23,5 @@ __pycache__/
 # pyenv
 .python-versiontest*
 test-*
+tpl01.ipynb.cleaned*
 tpl02.ipynb.cleaned*
