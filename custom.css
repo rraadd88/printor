@@ -305,18 +305,23 @@ td, th {
 }
 
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400);
-
 h1 {
   display: table;
   margin: 0 auto;
   font-family: "Ubuntu Mono";
   font-weight: 400;
   font-size: 8em;
-  background: linear-gradient(90deg, #e05252 0%, #e05252 25%, #8D8D8D 50%, #9952e0 75%, #9952e0 100%);
+/*   background: linear-gradient(90deg, #e05252 0%, #e05252 25%, #8D8D8D 50%, #9952e0 75%, #9952e0 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   line-height: 200px;
 }
+
+/*h1:hover {
+text-decoration: underline;
+     background-color: yellow;  
+}
+*/
 
 h2 {
   display: table;
@@ -324,8 +329,10 @@ h2 {
   font-family: "Ubuntu Mono";
   font-weight: 400;
   font-size: 8em;
-  background: linear-gradient(90deg, #e05252 0%, #e05252 25%, #8D8D8D 50%, #9952e0 75%, #9952e0 100%);
+/*   background: linear-gradient(90deg, #e05252 0%, #e05252 25%, #8D8D8D 50%, #9952e0 75%, #9952e0 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   line-height: 200px;
 }
+
+
